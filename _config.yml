@@ -1,14 +1,13 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Laurent Schmalen
+email: laurent.schmalen@kit.edu
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  My personal web page. 
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -19,22 +18,22 @@ last_updated: # leave blank if you don't want to display last updated
 # -----------------------------------------------------------------------------
 github_username: lschmalen # your GitHub user name
 twitter_username: LSchmalen # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+linkedin_username: laurent-schmalen # your LinkedIn user name
+scholar_userid: BtagIxoAAAAJ # your Google Scholar ID
+orcid_id: 0000-0002-1459-9128 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please drop my a short e-mail. Answering time is a random process.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
+blog_name: Laurent's Blog
+blog_description: a collection of my thoughts about communications
 
 # Pagination
 paginate: 4
@@ -47,11 +46,11 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 
 # Optional features
 show_social_icons:  true
-enable_anchorjs:    false
+enable_anchorjs:    true
 enable_katex:       true
 
 # -----------------------------------------------------------------------------
@@ -89,19 +88,17 @@ plugins:
     - jemoji
 
 # Jekyll-Scholar
+# Jekyll-Scholar
 scholar:
-
-  last_name: Einstein
-
+  last_name: Mitchell
   style: apa
   locale: en
-
   sort_by: year
   order: descending
-
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bib
+  bibliography_template: publication 
+  reference_tagname: div
 
   replace_strings: true
   join_strings: true
@@ -111,6 +108,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+
+
 
 # -----------------------------------------------------------------------------
 # Other settings
